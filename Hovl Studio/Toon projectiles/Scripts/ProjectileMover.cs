@@ -31,8 +31,8 @@ public class ProjectileMover : MonoBehaviour
                 Destroy(flashInstance, flashPsParts.main.duration);
             }
         }
-        //Destroy(gameObject, 5);
-    }
+        Destroy(gameObject,5);
+	}
 
     void FixedUpdate ()
     {

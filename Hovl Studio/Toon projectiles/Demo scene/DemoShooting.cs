@@ -17,7 +17,6 @@ public class DemoShooting : MonoBehaviour
 
     [Header("GUI")]
     private float windowDpi;
-    [SerializeField]
     private int Prefab;
     private GameObject Instance;
     private float hSliderValue = 0.1f;
