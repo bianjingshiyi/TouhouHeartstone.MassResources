@@ -6,8 +6,6 @@ using UnityEngine;
 
 public class Hovl_Laser : MonoBehaviour
 {
-    public int damageOverTime = 30;
-
     public GameObject HitEffect;
     public float HitOffset = 0;
     public bool useLaserRotation = false;
@@ -72,12 +70,6 @@ public class Hovl_Laser : MonoBehaviour
                 //Texture speed balancer {DISABLED AFTER UPDATE}
                 //LaserSpeed[0] = (LaserStartSpeed[0] * 4) / (Vector3.Distance(transform.position, hit.point));
                 //LaserSpeed[2] = (LaserStartSpeed[2] * 4) / (Vector3.Distance(transform.position, hit.point));
-                //Destroy(hit.transform.gameObject); // destroy the object hit
-                //hit.collider.SendMessage("SomeMethod"); // example
-                /*if (hit.collider.tag == "Enemy")
-                {
-                    hit.collider.GetComponent<HittedObject>().TakeDamage(damageOverTime * Time.deltaTime);
-                }*/
             }
             else
             {
